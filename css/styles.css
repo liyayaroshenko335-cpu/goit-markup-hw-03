@@ -4,18 +4,6 @@ body {
   background: #ffffff;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-.container {
-  width:;
-  margin: o auto;
-}
-
 h1,
 h2,
 h3,
@@ -56,6 +44,13 @@ address {
   overflow: hidden;
 }
 
+.container {
+  width: 1158px;;
+  margin: o auto;
+  padding-left: 141px;
+  padding-right: 141px;
+}
+
 .title {
   font-family: "Roboto Bold", sans-serif;
 }
@@ -72,7 +67,19 @@ button {
   cursor: pointer;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+
 /*!========HEDER====================*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc; 
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -120,6 +127,9 @@ button {
 /*!========HERO========================*/
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 
 .hero-title {
@@ -129,6 +139,11 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -138,6 +153,12 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -147,12 +168,18 @@ button {
 
 /*!=====FEATURES=======================*/
 
+.features-info {
+  width: 264px;
+  height: 104px;
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -180,6 +207,13 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-info {
+  width: 232px;
+  height: 56px;
+  /*padding: 32px 16px;*/
 }
 
 .team-image-subtitle {
@@ -189,6 +223,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -209,6 +244,19 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-subsektion {
+  width: 1128px;
+  height: 420px;
+}
+
+.portfolio-info {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
 }
 
 .portfolio-subtitle {
@@ -217,6 +265,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -226,10 +275,23 @@ button {
   color: #434455;
 }
 
+
+
 /*!=======FOOTER==============*/
+.footer {
+  background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-info {
+  width: 264px;
+  height: 112px;
+}
 
 .footer-logo-studio {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -239,6 +301,4 @@ button {
   color: #f4f4fd;
 }
 
-.footer {
-  background: #2e2f42;
-}
+
