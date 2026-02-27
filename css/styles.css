@@ -336,25 +336,43 @@ button {
   margin-bottom: 72px;
 }
 
-.portfolio-subsektion {
+.portfolio-subsektion-1 {
   display: flex;
-  
   height: 420px;
+  margin-bottom: 48px;
+}
+
+.portfolio-subsektion-2 {
+  display: flex;
+  height: 420px;
+  
 }
 
 .portfolio-item {
   display: flex;
   width: calc((100% - 2 * 24px) / 3);
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
   height: 420px;
 }
 
+.portfolio-image {
+  height: 300px;
+}
+
+
+
 .portfolio-info {
-  display: flex;
+  
   border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
-  
-  height: 120px;
+ 
+  width: 328px;
+  height: 56px;
 }
+
+
 
 .portfolio-subtitle {
   
