@@ -46,9 +46,8 @@ address {
 
 .container {
   width: 1158px;;
-  margin: o auto;
-  padding-left: 141px;
-  padding-right: 141px;
+  margin: 0 auto;
+  
 }
 
 .title {
@@ -89,10 +88,33 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  
+  
 }
 
 .logo-studio {
   color: #2e2f42;
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+}
+
+/*.navigation {
+  /*display: flex;
+  align-items: center;
+  /*flex-grow: 1;
+  justify-content: space-between;
+  margin-right: px;
+}*/
+
+.navigation-menu-list {
+  display: flex;
+  gap: 40px;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 332px;
 }
 
 .navigation-menu-link {
@@ -107,6 +129,19 @@ button {
 .navigation-menu-link:focus {
   color: #404bbf;
 }
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
+  
+}
+/*.header-address-mailto {
+ width: 153px;
+}
+
+.header-address-tel {
+  width: 151px;
+}*/
 
 .header-address-link {
   font-size: 16px;
