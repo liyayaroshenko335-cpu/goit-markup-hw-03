@@ -33,6 +33,8 @@ address {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -106,7 +108,7 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .header-navigation {
@@ -115,15 +117,11 @@ button {
   
 }
 
-.navigation-menu-list,
-.header-address-list {
+.navigation-menu-list {
+ 
   display: flex;
   gap: 40px;
   flex-grow: 1;
-  justify-content: space-between;
-  /*margin-right: 332px;*/
-  margin: 0;
-  padding: 0;
 }
 .navigation-menu-item {
   display: flex;
@@ -140,6 +138,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-menu-link:hover,
@@ -148,8 +147,8 @@ button {
 }
 .header-address {
   display: flex;
-  /*margin-left: auto;
-  font-style: normal;*/
+  margin-left: auto;
+  font-style: normal;
 }
 
 .header-address-list {
@@ -239,7 +238,7 @@ button {
 }
 
 .features-item {
-  display: flex;
+  
 
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -274,6 +273,7 @@ button {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -290,38 +290,40 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 
 .team-item {
-  display: flex;
+  
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
+  
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  height: 380px;
+  /*height: 380px;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
 
 
 .team-info {
-  display: flex;
+  /*display: flex;
   width: 232px;
-  height: 56px;
-
-  align-items: center;
+  height: 56px;*/
+  padding: 32px 0;
+  /*align-items: center;
   justify-content: center;
-  flex-direction: column;
-  
+  flex-direction: column;*/
+  text-align: center;
   
 }
 
 .team-image {
-  display: flex;
-  margin-bottom: 32px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-image-subtitle {
@@ -329,7 +331,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -338,7 +340,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #434455;
 }
 
@@ -452,9 +454,11 @@ button {
 .footer {
  padding-top: 100px;
  padding-bottom: 100px;
+ background: #2e2f42;
+ padding: 100px 0;
 }
 .footer-section {
-  background: #2e2f42;
+  
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -464,6 +468,17 @@ button {
   width: 264px;
   height: 112px;
   margin-bottom: 16px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo-studio {
