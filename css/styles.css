@@ -29,7 +29,7 @@ a {
 
 address {
   font-style: normal;
-} 
+}
 
 image {
   display: block;
@@ -130,6 +130,7 @@ button {
   display: flex;
   gap: 40px;
 }
+
 /*.header-address-mailto {
  width: 153px;
 }
@@ -270,7 +271,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}  
+}
 
 
 
@@ -320,12 +321,13 @@ button {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  
+
 }
 
 /*.portfolio-subsektion-1 {
@@ -354,7 +356,7 @@ button {
 }
 
 .portfolio-info {
-  
+
   /*border-bottom: 1px solid #e7e9fc;*/
   padding: 0px 16px;
 
@@ -369,12 +371,7 @@ button {
   margin-bottom: 32px;
 }
 
-border-bottom: 1px solid var(--cornflower);
-border-left: 1px solid var(--cornflower);
-border-right: 1px solid var(--cornflower);
-padding: 32px 16px;
-width: 360px;
-height: 120px;
+
 
 .portfolio-subtitle {
   font-weight: 500;
@@ -382,7 +379,7 @@ height: 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
+
 }
 
 .portfolio-text {
@@ -391,11 +388,12 @@ height: 120px;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .portfolio-card-content {
   overflow: hidden;
   position: relative;
   background: #4d5ae5;
-  
+
 }
 
 
@@ -409,11 +407,11 @@ height: 120px;
   top: 40px;
   left: 32px;
   right: 32px;
-  
+
   height: 100%;
   background-color: #4d5ae5;
-  
-  
+
+
 }
 
 /*!=======FOOTER==============*/
