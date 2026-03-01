@@ -445,9 +445,11 @@ button {
   /*align-items: baseline;*/
    
 }
+ 
 
-/*.footer-info {
-  margin-right: 120px;
+/*<div class="footer-info">*/
+.footer-info {
+  /*margin-right: 120px;*/
   
   height: auto;
 }*/
