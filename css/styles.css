@@ -113,14 +113,14 @@ button {
 
 
 .header-navigation {
-  
-  /*align-items: center;*/
+  display: flex;
+  align-items: center;
   
 }
 
 .navigation-menu-list {
  
-  
+  display: flex;
   gap: 40px;
   flex-grow: 1;
 }
@@ -138,6 +138,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
   
 }
 
@@ -148,7 +149,7 @@ button {
 
 
 .header-address-list {
-  
+  display: flex;
   gap: 40px;
   margin-left: auto;
   font-style: normal;
@@ -421,13 +422,13 @@ button {
 
 .footer-container {
   display: flex;
-  gap: 16px;
+  /*gap: 16px;*/
 }
 
-.footer-info {
+/*.footer-info {
   width: 264px;
   height: 112px;
-}
+}*/
 
 
   
@@ -446,7 +447,8 @@ button {
 
 .footer-logo-studio {
   color: #f4f4fd;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -454,5 +456,5 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  
+  max-width: 264px;
 }
