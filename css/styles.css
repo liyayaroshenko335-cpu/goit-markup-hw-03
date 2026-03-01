@@ -421,6 +421,7 @@ button {
 
 .footer-container {
   display: flex;
+  gap: 16px;
 }
 
 .footer-info {
