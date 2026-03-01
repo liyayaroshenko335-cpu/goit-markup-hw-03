@@ -78,14 +78,15 @@ button {
 }
 
 /*!========HEDER====================*/
-
+/*<h2 class="visually-hidden" hidden>hed</h2>*/
+/*<h2 class="visually-hidden" hidden>fut</h2>*/
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
 }
 
 .header-logo {
@@ -136,7 +137,7 @@ button {
 }
 
 .navigation-menu-link {
-  display: inline-block;
+  display: block;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -152,11 +153,15 @@ button {
   color: #404bbf;
 }
 
+.header-address {
+  margin-left: auto;
+  font-style: normal;
+}
+
 
 .header-address-list {
   display: flex;
   gap: 40px;
-  margin-left: auto;
   
   
   
@@ -169,7 +174,7 @@ button {
 
 .header-address-link {
   display: inline-block;
-  font-style: normal;
+  
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
