@@ -49,7 +49,7 @@ img {
 }
 
 .container {
-  
+
   max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -80,12 +80,12 @@ button {
 /*!========HEDER====================*/
 
 .header {
-   border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .header-logo {
@@ -102,35 +102,32 @@ button {
 
 .logo-studio {
   color: #2e2f42;
-  
+
 }
 
 .header-section {
   padding-top: 24px;
   padding-bottom: 24px;
- 
+
 }
 
 
 
- 
+
 .header-navigation {
   display: flex;
   align-items: center;
-  
+
 }
 
 .navigation-menu-list {
- 
- display: flex;
+  
+  display: flex;
   gap: 40px;
   flex-grow: 1;
 }
-.navigation-menu-item {
-  
-  
-  
-}
+
+.navigation-menu-item {}
 
 .navigation-menu-link {
   display: flex;
@@ -140,8 +137,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
-  
+
+
 }
 
 .navigation-menu-link:hover,
@@ -155,7 +152,7 @@ button {
   gap: 40px;
   margin-left: auto;
   font-style: normal;
-
+  align-items: center;
 }
 
 
@@ -228,7 +225,7 @@ button {
 }
 
 .features-item {
-  
+
 
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -263,7 +260,7 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  
+
 }
 
 .team-title {
@@ -285,22 +282,22 @@ button {
 
 
 .team-item {
-  
+
   border-radius: 0 0 4px 4px;
-  
+
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  
+
 }
 
 
 
 .team-info {
-  
+
   padding: 32px 0;
-  
+
   text-align: center;
-  
+
 }
 
 .team-image {
@@ -314,7 +311,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -323,7 +320,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
+
   color: #434455;
 }
 
@@ -434,9 +431,9 @@ button {
 
 .footer-logo {
   display: inline-block;
-  
+
   margin-bottom: 16px;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -447,7 +444,7 @@ button {
 
 .footer-logo-studio {
   color: #f4f4fd;
-  
+
 }
 
 .footer-text {
