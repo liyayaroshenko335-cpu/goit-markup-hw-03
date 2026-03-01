@@ -123,24 +123,27 @@ button {
 }
 
 .navigation-menu-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /*padding-top: 24px;
+  padding-bottom: 24px;*/
   display: flex;
   gap: 40px;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
 }
 
-.navigation-menu-item {}
+.navigation-menu-item {
+ 
+ display: flex;
+}
 
 .navigation-menu-link {
-  display: flex;
+  display: inline-block;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+  font-family: "Roboto Medium",sans-serif;
 
 }
 
@@ -154,19 +157,27 @@ button {
   display: flex;
   gap: 40px;
   margin-left: auto;
+  
+  
+  
+}
+
+.header-address-item {
+  display: flex;
+  
+}
+
+.header-address-link {
+  display: inline-block;
   font-style: normal;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-
-
-.header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-family: "Roboto Reguiar",sans-serif;
 }
 
 .header-address-link:hover,
@@ -430,8 +441,8 @@ button {
 }
 
 .footer-info {
-  width: 264px;
-  height: 112px;
+  max-width: 264px;
+  height: auto;
 }
 
 .footer-logo {
@@ -458,4 +469,5 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  font-family: "Roboto Reguiar",sans-serif;
 }
