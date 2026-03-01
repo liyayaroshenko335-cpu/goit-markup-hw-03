@@ -451,7 +451,7 @@ button {
 .footer-info {
   /*margin-right: 120px;*/
   
-  height: 112px;
+  height: auto;
 }
 
 .footer-logo {
