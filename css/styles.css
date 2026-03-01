@@ -442,15 +442,15 @@ button {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  /*align-items: baseline;*/
    
 }
 
-.footer-info {
+/*.footer-info {
   margin-right: 120px;
   
   height: auto;
-}
+}*/
 
 .footer-logo {
   display: inline-block;
