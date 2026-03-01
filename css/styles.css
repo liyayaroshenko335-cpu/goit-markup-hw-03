@@ -441,18 +441,18 @@ button {
 }
 
 .footer-container {
-  display: flex;
+  /*display: flex;*/
   /*align-items: baseline;*/
    
 }
  
 
 /*<div class="footer-info">*/
-.footer-info {
-  /*margin-right: 120px;*/
+/*.footer-info {
+  /*margin-right: 120px;
   
   height: auto;
-}
+}*/
 
 .footer-logo {
   display: inline-block;
