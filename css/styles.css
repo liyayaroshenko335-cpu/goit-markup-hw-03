@@ -442,12 +442,14 @@ button {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  /*align-items: baseline;*/
    
 }
 
 .footer-info {
-  margin-right: 120px;
+  /*margin-right: 120px;*/
+  max-width: 264px;
+  height: auto;
 }
 
 .footer-logo {
@@ -473,5 +475,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  min-width: 254px;
+  
+  font-family: "Roboto Reguiar",
+  sans-serif;
 }
