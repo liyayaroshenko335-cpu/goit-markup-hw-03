@@ -85,6 +85,7 @@ button {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -96,6 +97,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-studio {
@@ -111,7 +113,7 @@ button {
 
 
 
-
+ 
 .header-navigation {
   display: flex;
   align-items: center;
@@ -120,7 +122,7 @@ button {
 
 .navigation-menu-list {
  
-  display: flex;
+ display: flex;
   gap: 40px;
   flex-grow: 1;
 }
@@ -430,10 +432,8 @@ button {
   height: 112px;
 }*/
 
-
-  
-
 .footer-logo {
+  display: inline-block;
   
   margin-bottom: 16px;
   font-family: "Raleway",sans-serif;
@@ -447,8 +447,7 @@ button {
 
 .footer-logo-studio {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .footer-text {
